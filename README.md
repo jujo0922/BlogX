@@ -22,6 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ☢️The websites are in Spanish and the code may contain some Spanglish.☢️
+    <br />
 ⚠️⚠️If you are starting it for the first time, go to example.com/BlogX/installer.html⚠️⚠️
 
 Installation:
