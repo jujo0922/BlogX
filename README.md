@@ -21,9 +21,12 @@
 
 <!-- ABOUT THE PROJECT -->
 
+<div align="center">
+
 ☢️The websites are in Spanish and the code may contain some Spanglish.☢️
     <br />
 ⚠️⚠️If you are starting it for the first time, go to example.com/BlogX/installer.html⚠️⚠️
+</div>
 
 Installation:
 * Unzip BlogX in Tomcat webapps.
