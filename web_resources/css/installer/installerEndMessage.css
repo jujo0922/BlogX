@@ -1,0 +1,19 @@
+body{
+    
+    flex-direction: column;
+    background-color: #EDF2F4;
+    padding: 20px;
+}
+
+.imgInstaller{
+    width: 400px;
+    padding: 30px;
+}
+
+.spinner{
+    color: #f2007a;
+}
+
+.featuredImage{
+    width: 320px;
+}
