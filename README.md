@@ -9,7 +9,7 @@
   <p align="center">
     An awesome servlet blog for Apache Tomcat-9.0.58!
     <br />
-    Free to use without pronouncing myself, enjoy!
+    Free to use without naming me, enjoy!
     <br />
     <br />
     Thanks to Pedro Luis Lucas Rosado.
