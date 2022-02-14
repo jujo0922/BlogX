@@ -50,7 +50,7 @@ public class HtmlTemplates {
         <link rel='stylesheet' href='web_resources/css/global.css'>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/>
         <link rel='stylesheet' href='web_resources/css/installer/installerDB.css'>
-        <meta http-equiv='refresh' content='5; url=http://localhost:8080/WebBlog/$status_page$'/>
+        <meta http-equiv='refresh' content='5; url=http://localhost:8080/BlogX/$status_page$'/>
         </head>
         <body class='d-flex justify-content-center align-items-center text-center'>
 
@@ -90,14 +90,14 @@ public class HtmlTemplates {
 
                             <nav class='navbar navbar-expand-lg blogx-primaryColor navBarShadow'>
                                 <div class='container-fluid'>
-                                  <a class='navbar-brand blogx-textPrimaryColor hover' href='WebBlog/home'>$blog_name$</a>
+                                  <a class='navbar-brand blogx-textPrimaryColor hover' href='BlogX/home'>$blog_name$</a>
                                   <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                                     <span class='navbar-toggler-icon'></span>
                                   </button>
                                   <div class='collapse navbar-collapse' id='navbarSupportedContent'>
                                     <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                                       <li class='nav-item'>
-                                        <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/WebBlog/home'>Home</a>
+                                        <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/BlogX/home'>Home</a>
                                       </li>
                                       $control_panel_nav$
                                     </ul>
@@ -108,7 +108,7 @@ public class HtmlTemplates {
 
                             <main class='container' style='background: white; box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.486); border-radius: 10px; padding: 10px;'>
                             <h1 style='margin-top: 20px; margin-bottom: 20px;' class='text-center'>&#218ltimo Blog</h1>
-                              <a href='/WebBlog/entry?id=$id_entry$'>
+                              <a href='/BlogX/entry?id=$id_entry$'>
                                 <div class='card bg-dark text-white featuredEntry'>
                                   <img width='100%'' height='100%' src='$entry_image$' class='card-img' alt='error'>
                                   <div class='card-img-overlay'>
@@ -215,7 +215,7 @@ public class HtmlTemplates {
 
                                 <nav class='navbar navbar-expand-lg blogx-primaryColor navBarShadow'>
                                 <div class='container-fluid'>
-                                  <a class='navbar-brand blogx-textPrimaryColor hover' href='/WebBlog/home'>$blog_name$</a>
+                                  <a class='navbar-brand blogx-textPrimaryColor hover' href='/BlogX/home'>$blog_name$</a>
                                   <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent'
                                     aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                                     <span class='navbar-toggler-icon'></span>
@@ -223,7 +223,7 @@ public class HtmlTemplates {
                                   <div class='collapse navbar-collapse' id='navbarSupportedContent'>
                                     <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                                       <li class='nav-item'>
-                                        <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/WebBlog/home'>Inicio</a>
+                                        <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/BlogX/home'>Inicio</a>
                                       </li>
                                     </ul>
 
@@ -235,7 +235,7 @@ public class HtmlTemplates {
                                 <div class='panel d-flex justify-content-center align-items-center'>
                                   <h3 class='animate__animated animate__fadeIn animate__slow'>Error al iniciar sesi&#243n.</h3>
                                   <img class='animate__animated animate__fadeIn animate__slow' src='./web_resources/images/login/loginError.svg' alt='error'><br><br>
-                                  <a href='/WebBlog/login'><button class='btnSubmit animate__animated animate__fadeIn animate__slow' >Volver a iniciar sesi&#243n</button></a>
+                                  <a href='/BlogX/login'><button class='btnSubmit animate__animated animate__fadeIn animate__slow' >Volver a iniciar sesi&#243n</button></a>
 
                                 </div>
                               </main>
@@ -361,7 +361,7 @@ public class HtmlTemplates {
             <div class='panel d-flex justify-content-center align-items-center' style='box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.486);'>
               <h3 class='animate__animated animate__fadeIn animate__slow'>Iniciar sesi&#243n.</h3>
               <img class='animate__animated animate__fadeIn animate__slow' src='./web_resources/images/login/login.svg' alt=''><br><br>
-              <form action='/WebBlog/loginCheck' method='post'>
+              <form action='/BlogX/loginCheck' method='post'>
                 <label class='animate__animated animate__fadeIn animate__slow' for='user'>Usuario:</label>
                 <input class='inpUser animate__animated animate__fadeIn animate__slow' type='text' name='user' required><br><br>
                 <label class='animate__animated animate__fadeIn animate__slow' for='user'>Contrase&#241a:</label>
@@ -497,14 +497,14 @@ public class HtmlTemplates {
 
             <nav class='navbar navbar-expand-lg blogx-primaryColor'>
             <div class='container-fluid'>
-              <a class='navbar-brand blogx-textPrimaryColor hover' href='/WebBlog/home'>$blog_name$</a>
+              <a class='navbar-brand blogx-textPrimaryColor hover' href='/BlogX/home'>$blog_name$</a>
               <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                 <span class='navbar-toggler-icon'></span>
               </button>
               <div class='collapse navbar-collapse' id='navbarSupportedContent'>
                 <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                   <li class='nav-item'>
-                    <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/WebBlog/home'>Home</a>
+                    <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/BlogX/home'>Home</a>
                   </li>
                   $control_panel_nav$
                 </ul>
@@ -534,7 +534,7 @@ public class HtmlTemplates {
               </nav>
 
               <main class='d-flex justify-content-center align-items-center'>
-                <iframe class='panel' id='iframe' src='/WebBlog/ControlPanelEntrys' frameborder='0' style='box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.486);'></iframe>
+                <iframe class='panel' id='iframe' src='/BlogX/ControlPanelEntrys' frameborder='0' style='box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.486);'></iframe>
               </main>
 
               <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'
@@ -546,15 +546,15 @@ public class HtmlTemplates {
                   }
 
                   function cahngeToEntrys(){
-                    changeSrcIframe('/WebBlog/ControlPanelEntrys')
+                    changeSrcIframe('/BlogX/ControlPanelEntrys')
                   }
 
                   function changeToUsers(){
-                    changeSrcIframe('/WebBlog/ControlPanelUsers');
+                    changeSrcIframe('/BlogX/ControlPanelUsers');
                   }
 
                   function changeToSettings(){
-                    changeSrcIframe('/WebBlog/ControlPanelEditTheme');
+                    changeSrcIframe('/BlogX/ControlPanelEditTheme');
                   }
 
                   function load() {
@@ -693,14 +693,14 @@ public class HtmlTemplates {
 
             <nav class='navbar navbar-expand-lg blogx-primaryColor navBarShadow'>
             <div class='container-fluid'>
-              <a class='navbar-brand blogx-textPrimaryColor hover' href='/WebBlog/home'>$blog_name$</a>
+              <a class='navbar-brand blogx-textPrimaryColor hover' href='/BlogX/home'>$blog_name$</a>
               <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                 <span class='navbar-toggler-icon'></span>
               </button>
               <div class='collapse navbar-collapse' id='navbarSupportedContent'>
                 <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
                   <li class='nav-item'>
-                    <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/WebBlog/home'>Home</a>
+                    <a class='nav-link active blogx-textPrimaryColor hover' aria-current='page' href='/BlogX/home'>Home</a>
                   </li>
                   $control_panel_nav$
                 </ul>
@@ -848,7 +848,7 @@ public class HtmlTemplates {
               <br>
               <br>
                 <h3>Nueva Entrada</h3>
-                  <form action='/WebBlog/ControlPanelInsertEntry' method='post'>
+                  <form action='/BlogX/ControlPanelInsertEntry' method='post'>
                     <label for='title'>Titulo:</label><br>
                     <input  type='text' name='title' required><br>
                     <label for='image'>URL imagen:</label><br>
@@ -1014,7 +1014,7 @@ public class HtmlTemplates {
             <div class='row'>
               <div class='col-12'>
                 <h3>Editar Entrada</h3>
-                  <form action='/WebBlog/ControlPanelUpdateEntry' method='post'>
+                  <form action='/BlogX/ControlPanelUpdateEntry' method='post'>
                     <label for='title'>Titulo:</label><br>
                     <input style='width: 800px;' type='text' name='title' value='$entry_title$' required><br>
                     <label for='image'>URL imagen (para una mejor visualizaci&#243n, debe se cuadrada o rectangular):</label><br>
@@ -1024,7 +1024,7 @@ public class HtmlTemplates {
                     <input type='submit' class='submitButton'>
                     <input type='hidden' value='$entry_id$' name='id'>
                   </form>
-                  <form action='/WebBlog/ControlPanelDeleteEntry' method='post'>
+                  <form action='/BlogX/ControlPanelDeleteEntry' method='post'>
                     <input type='submit' class='submitButton' value='Eliminar'>
                     <input type='hidden' value='$entry_id$' name='id'>
                   </form>
@@ -1188,7 +1188,7 @@ public class HtmlTemplates {
             <div class='row'>
               <div class='col-12'>
                 <h3>Editar usuario.</h3>
-                  <form action='/WebBlog/ControlPanelUpdateUser' method='post'>
+                  <form action='/BlogX/ControlPanelUpdateUser' method='post'>
                     <span>$user_nick$</span><br>
                     <label for='oldPassword'>Contrase&#241a actual:</label><br>
                     <input style='width: 800px;'  type='password' name='oldPassword' required><br>
@@ -1199,7 +1199,7 @@ public class HtmlTemplates {
                     <input type='submit' class='submitButton'>
                     <input type='hidden' value='$user_nick$' name='nick'>
                   </form>
-                  <form action='/WebBlog/ControlPanelDeleteUser' method='post'>
+                  <form action='/BlogX/ControlPanelDeleteUser' method='post'>
                     <input type='submit' class='submitButton' value='Eliminar'>
                     <input type='hidden' value='$user_nick$' name='nick'>
                   </form>
@@ -1374,7 +1374,7 @@ public class HtmlTemplates {
               <br>
               <br>
                 <h3>Nuevo Usuario</h3>
-                  <form action='/WebBlog/ControlPanelInsertUser' method='post'>
+                  <form action='/BlogX/ControlPanelInsertUser' method='post'>
                     <label for='nick'>Nombre:</label><br>
                     <input  type='text' name='nick' required><br>
                     <label for='password'>Contrase&#241a:</label><br>
@@ -1552,7 +1552,7 @@ public class HtmlTemplates {
               <option value='5' selected='selected'>Personalizado</option>
             </select>
             <br><br>
-            <form action='/WebBlog/ControlPanelUpdateTheme' method='post'>
+            <form action='/BlogX/ControlPanelUpdateTheme' method='post'>
               <label for='blogName'>Nombre del Blog:</label><br>
               <input id='blogName' style='width: 800px;' type='text' name='blogName' value='$blog_name$' required><br>
     
@@ -1835,7 +1835,7 @@ public class HtmlTemplates {
   public static String controlPanelEntryForm() {
     String html = """
 
-        <form class='formEditEntry' action='/WebBlog/ControlPanelEditEntry' method='post'>
+        <form class='formEditEntry' action='/BlogX/ControlPanelEditEntry' method='post'>
               <span>$entry_title$</span><br>
               <span>Fecha: $entry_date$</span>
               <input type='hidden' name='id' value='$entry_id$'><br>
@@ -1850,7 +1850,7 @@ public class HtmlTemplates {
   public static String controlPanelUserForm() {
     String html = """
 
-        <form class='formEditEntry' action='/WebBlog/ControlPanelEditUser' method='post'>
+        <form class='formEditEntry' action='/BlogX/ControlPanelEditUser' method='post'>
               <span>$user_nick$</span><br>
               <input type='hidden' name='ncik' value='$user_nick$'><br>
               <input class='submitButton' type='submit' value='Editar'>
@@ -1869,7 +1869,7 @@ public class HtmlTemplates {
           <meta charset='UTF-8'>
           <meta http-equiv='X-UA-Compatible' content='IE=edge'>
           <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-          <meta http-equiv='refresh' content='1; url=/WebBlog/home' />
+          <meta http-equiv='refresh' content='1; url=/BlogX/home' />
           <title>$blog_name$ | Redirecting...</title>
         </head>
         <body>
@@ -1884,7 +1884,7 @@ public class HtmlTemplates {
   public static String loginButton() {
 
     String htnml = """
-        <a href='/WebBlog/login'><button type='button' class='secondaryColor btn-login '>Inciar sesi&#243n</button></a>
+        <a href='/BlogX/login'><button type='button' class='secondaryColor btn-login '>Inciar sesi&#243n</button></a>
                 """;
 
     return htnml;
@@ -1893,7 +1893,7 @@ public class HtmlTemplates {
   public static String logOutButton() {
 
     String htnml = """
-        <a href='/WebBlog/logout'><button type='button' class='secondaryColor btn-login '>Cerrar sesi&#243n</button></a>
+        <a href='/BlogX/logout'><button type='button' class='secondaryColor btn-login '>Cerrar sesi&#243n</button></a>
                 """;
 
     return htnml;
@@ -1902,7 +1902,7 @@ public class HtmlTemplates {
   public static String entryBody() {
 
     String htnml = """
-          <a href='/WebBlog/entry?id=$id_entry$' class='col-3 noTextDecoration'>
+          <a href='/BlogX/entry?id=$id_entry$' class='col-3 noTextDecoration'>
           <div class='card ' style='width: 18rem;'>
             <img
               src='$entry_image$'
@@ -1921,7 +1921,7 @@ public class HtmlTemplates {
 
     String htnml = """
         <li class='nav-item'>
-        <a class='nav-link blogx-textPrimaryColor hover' href='/WebBlog/controlpanel'>Panel de Control</a>
+        <a class='nav-link blogx-textPrimaryColor hover' href='/BlogX/controlpanel'>Panel de Control</a>
         </li>
                           """;
 
